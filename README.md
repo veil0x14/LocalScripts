@@ -1,1 +1,1 @@
-get an executor then copy the scripts in lua then execute and done.
+get an executor that is trusted and copy one of these scripts and execute it.
