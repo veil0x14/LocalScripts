@@ -32,7 +32,7 @@ end);
 game:GetService("Players").LocalPlayer.Character:WaitForChild("Humanoid").HealthChanged:Connect(function(hp)
     if getgenv().hiiz.autorj and hp <= 0 then
         saveconfig();
-        script_code = [[loadstring(game:HttpGet(""))()]];
+        script_code = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/veil0x14/LocalScripts/refs/heads/main/echosmain.lua"))()]];
         if syn and syn.queue_on_teleport then
             syn.queue_on_teleport(script_code);
         elseif queue_on_teleport then
